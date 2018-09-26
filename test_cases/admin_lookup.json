@@ -62,9 +62,9 @@
     },
     {
       "id": "4",
-      "status": "pass",
+      "status": "fail",
       "endpoint": "reverse",
-      "description": "Reverse does not fall back to point-in-polygon for admin areas",
+      "description": "Reverse does not fall back to point-in-polygon for admin areas. Current transient data issue with county records.",
       "issue": [
         "https://github.com/pelias/pelias/issues/360",
         "https://github.com/pelias/pelias/wiki/Reverse-Geocoding,-Part-Deux"
